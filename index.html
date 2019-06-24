@@ -1,1 +1,143 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta name="description" content="Portfolio"/>
+        <meta name="author" content="Patryk Pasek"/>
+        <meta name="viewport" content="width=device-width, initail-scale=1"/>
+        <link rel="stylesheet" href="css/style.css">
+        <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <nav>
+                    <img src='img/pattern-top.svg' alt='pattern-top' width='75%' />
+                </nav>
+            </header>
+            <header>
+                <nav>
+                    <div class='nav-container'>
+                        <div class='nav-left'>
+                            <ul>
+                                <li>
+                                    <a href='index.html' class='link'>Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class='nav-right'>
+                            <img src='img/en.svg' alt='en' width='24' />
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class='center-container'>
+                    <div class='container-main-header'>
+                        <div class='container-main-box'></div>
+                        <h1 class='container-main-h1'>
+                            Patryk Pasek
+                        </h1>
+                    </div>
+                </div>
+                <section id="services">
+                    <div class='box-text-align-left'>
+                        <h1>
+                            SERVICES PROVIDE
+                        </h1>
+                        <div class='separator-main'>
+                            <div class='separator-box'></div>
+                        </div>
+                    </div>
+                    <div class='box-container'>
+                        <a href='#' class='box'>
+                            <div class='center-container'>
+                                <img src='img/mobile-app.svg' alt='mobile-app.svg' width='48px' height='48px' />
+                            </div>
+                            <h3>Mobile Apps</h3>
+                        </a>
+                        <a href='#' class='box'>
+                            <div class='center-container'>
+                                <img src='img/web-app.svg' alt='web-app.svg' width='48px' height='48px' />
+                            </div>
+                            <h3>Web Apps</h3>
+                        </a>
+                    </div>
+                </section>
+                <section id="repos">
+                    <div class='box-text-align-left'>
+                        <h1>
+                            MY PUBLIC REPOS
+                        </h1>
+                        <div class='separator-main'>
+                            <div class='separator-box'></div>
+                        </div>
+                    </div>
+                    <div class='box-container'>
+                        <div id='github-repos'>
+                            <h3>Loading...</h3>
+                        </div>
+                    </div>
+                </section>
+                <section id="realizations">
+                    <div class='box-text-align-left'>
+                        <h1>
+                            REALIZATIONS
+                        </h1>
+                        <div class='separator-main'>
+                            <div class='separator-box'></div>
+                        </div>
+                    </div>
+                    <div class='box-container'>
+                        <div class='application-box'>
+                            <div class='application-box-item'>
+                                <img src='img/krs.webp'
+                                    alt='img/krs.webp'
+                                    height='320px' />
+                                <br />
+                                <a href='https://play.google.com/store/apps/details?id=com.patrykpasek.mojepanstwo' target='_blank'>
+                                    <img src='https://play.google.com/intl/en_us/badges/images/badge_new.png' 
+                                        alt='google-badge'
+                                        width='114px' /> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class='application-box'>
+                            <div class='application-box-item'>
+                                <img src='img/gravity.webp'
+                                    alt='img/gravity.webp'
+                                    height='320px' />
+                                <br />
+                                <a href='https://play.google.com/store/apps/details?id=com.patrykpasek.SocMedia' target='_blank'>
+                                    <img src='https://play.google.com/intl/en_us/badges/images/badge_new.png' 
+                                        alt='google-badge'
+                                        width='114px' /> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class='application-box'>
+                            <div class='application-box-item'>
+                                <img src='img/akcyza.webp'
+                                    alt='img/akcyza.webp'
+                                    height='320px' />
+                                <br />
+                                <a href='https://play.google.com/store/apps/details?id=com.patrykpasek.KalkualtorAkcyzy2017' target='_blank'>
+                                    <img src='https://play.google.com/intl/en_us/badges/images/badge_new.png' 
+                                        alt='google-badge'
+                                        width='114px' /> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class='footer-container'>
+                    Patryk Pasek &copy; 2019
+                </div>
+            </footer>
+        </div>
+        <script src='js/github.js'></script>
+    </body>
+</html>
