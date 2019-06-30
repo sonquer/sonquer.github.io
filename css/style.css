@@ -195,6 +195,7 @@ main > section {
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
     transition: background-color 1s ease-out;
+    transform: scale(1.2);
 }
 
 .repo-box-item {
